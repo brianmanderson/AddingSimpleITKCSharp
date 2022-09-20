@@ -10,5 +10,6 @@ Select active solution platform -> x64
 Platform -> x64
 
 Add Reference -> Browse -> SimpleITKCShartmanged.dll
-Project -> Add Existing Item -> Executable Files -> Add As Link -> SimpleITKCSharpNative.dll
+Project->Add Existing->Executable->Add Link->SimpleITKCSharpNative.dll
+
 Build Action -> Content. Copy to Outputdirectory -> Always
