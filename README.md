@@ -10,7 +10,8 @@ In the project, Bring up Configuration Manager
 Select active solution platform -> x64
 Platform -> x64
 
-Add Reference -> Browse -> SimpleITKCShartmanged.dll
-Project->Add Existing->Executable->Add Link->SimpleITKCSharpNative.dll
+Add Reference -> Browse -> SimpleITKCSharpmanged.dll
 
-Build Action -> Content. Copy to Outputdirectory -> Always
+Right-click Project Name->Add Existing Item->Executable->Add Link->SimpleITKCSharpNative.dll
+
+Click SimpleITKCSharpNative.dll -> Build Action -> Content. Copy to Outputdirectory -> Always
