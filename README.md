@@ -6,12 +6,15 @@ https://github.com/SimpleITK/SimpleITK/releases
 Rename to be SimpleITK
 Relocate to Modular_Projects\SimpleITK
 
-In the project, Bring up Configuration Manager
+In the project, top panel click 'Build' -> 'Configuration Manager'
 Select active solution platform -> x64
 Platform -> x64
 
-Add Reference -> Browse -> SimpleITKCSharpmanged.dll
+Right click Rerefences -> Add Reference -> Browse -> SimpleITKCSharpmanged.dll
 
 Right-click Project Name->Add Existing Item->Executable->Add Link->SimpleITKCSharpNative.dll
 
 Click SimpleITKCSharpNative.dll -> Build Action -> Content. Copy to Outputdirectory -> Always
+
+# Installing FellowOak?
+NuGet -> fo-dicom
